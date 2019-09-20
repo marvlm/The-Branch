@@ -1,6 +1,7 @@
-var countDownDate = new Date();
+var countDownDate.setDate('September 12, 2020 08:00:00').getTime();
+//var countDownDate = new Date();
     // Replace with desired date 'January 17, 2019 03:24:00', example
-    // countDownDate.setDate('January 17, 2019 03:24:00').getTime();
+    // countDownDate.setDate('September 12, 2020 08:00:00').getTime();
     countDownDate.setDate(countDownDate.getDate() + 30);
     countDownDate.getTime();
 
