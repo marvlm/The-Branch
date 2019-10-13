@@ -5,12 +5,14 @@ function validateEmail(email) {
 }
 
 var config = {
-    apiKey: "<YOUR FIREBASE API KEY>",
-    authDomain: "<FIREBASE AUTH DOMAIN>",
-    databaseURL: "<DB URL>",
-    projectId: "<PROJECT ID>",
-    storageBucket: "<STRORAGE BUKCET>",
-    messagingSenderId: "<MESSAGE SENDER ID>"
+    apiKey: "AIzaSyAzJ_jLgfQywn9APU2vSAO35Mr8VHbRpS0",
+    authDomain: "the-branch-86e50.firebaseapp.com",
+    databaseURL: "https://the-branch-86e50.firebaseio.com",
+    projectId: "the-branch-86e50",
+    storageBucket: "the-branch-86e50.appspot.com",
+    messagingSenderId: "1017773154037",
+    appId: "1:1017773154037:web:1b6aaa13039dc24853afbc",
+    measurementId: "G-HKMWHJBC71"
 };
 firebase.initializeApp(config);
 var db = firebase.firestore();
