@@ -41,7 +41,7 @@ $(document).ready(function () {
                             console.log("Document written with ID: ", docRef.id);
                             $("#notifs-form-btn").text("Notified!");
                             $("#notifs-form").css("display","none");
-                            $("h4.notified").text("Gracias por tu interés. Pronto te brindamos información acerca de The Branch!");
+                            $("h4.notified").text("Gracias por tu interés. Pronto te brindamos más información acerca de nosotros!");
                         })
                         .catch(function (error) {
                             console.error("Error adding document: ", error);
