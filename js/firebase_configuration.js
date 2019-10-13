@@ -51,7 +51,8 @@ $(document).ready(function () {
 
         }
         else {
-            alert('Invalid Email');
+            //alert('Invalid Email');
+            $("label.invalid").text("El email no tiene el formato correcto.");
         }
     });
 

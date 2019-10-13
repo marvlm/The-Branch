@@ -48,3 +48,7 @@ input:-webkit-autofill:active {
 .notified{
   font-weight: bold;
 }
+
+.invalid{
+  color: #f9070d;
+}
