@@ -40,6 +40,7 @@ $(document).ready(function () {
                         .then(function (docRef) {
                             console.log("Document written with ID: ", docRef.id);
                             $("#notifs-form-btn").text("Notified!");
+                            $("#notifs-form").css("display","none");
                             $("h4.notified").text("Gracias por tu interés. Pronto te brindamos información acerca de The Branch!");
                         })
                         .catch(function (error) {
