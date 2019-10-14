@@ -57,3 +57,9 @@ input:-webkit-autofill:active {
   color: #2f2f2f;
   font-size: 10pt;
 }
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+ }
