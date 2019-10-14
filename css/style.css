@@ -58,8 +58,11 @@ input:-webkit-autofill:active {
   font-size: 10pt;
 }
 
-footer {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
- }
+@media screen and (min-width: 800px){
+  footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+   }
+}
+
