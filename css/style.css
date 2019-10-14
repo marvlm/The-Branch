@@ -64,5 +64,16 @@ input:-webkit-autofill:active {
     bottom: 0;
     width: 100%;
    }
+
+   img {
+    width:350px;
+    height:198px;
+   }
+}
+
+@media screen and (max-width: 800px){
+  img{
+    max-width: 100%;
+  }
 }
 
