@@ -23,6 +23,7 @@
 
 span.h4 {
   font-family: "Barlow", sans-serif;
+  font-weight: bold;
 }
 
 i {
@@ -58,8 +59,13 @@ input:-webkit-autofill:active {
   font-size: 10pt;
 }
 
+.code{
+  background-image: none;
+  background-color: white;
+}
+
 @media screen and (min-width: 800px){
-  footer {
+  .landing-footer {
     position: absolute;
     bottom: 0;
     width: 100%;
@@ -67,7 +73,7 @@ input:-webkit-autofill:active {
 
    img {
     width:350px;
-    height:198px;
+    height:148px;
    }
 }
 
